@@ -1,0 +1,7 @@
+.newsItem {
+  @apply flex gap-x-3 items-center;
+
+  &:not(:first-child) {
+    @apply pt-3 border-t border-t-[#f7f7f7] mt-3;
+  }
+}
